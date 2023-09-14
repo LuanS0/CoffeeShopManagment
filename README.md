@@ -1,4 +1,2 @@
 # CoffeeShopManagment
 CoffeeShop - Managment
-
-
