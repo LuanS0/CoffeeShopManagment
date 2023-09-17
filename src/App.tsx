@@ -1,4 +1,6 @@
 
+import { Outlet } from 'react-router-dom'
+import Header from './components/Header'
 import SignIn from './pages/SignIn'
 import "./reset.scss"
 
@@ -6,7 +8,9 @@ function App() {
 
   return (
     <>
-      <SignIn />
+      <Header />
+      <Outlet />
+      {/* <SignIn /> */}
     </>
   )
 }
