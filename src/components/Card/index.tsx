@@ -13,7 +13,7 @@ const Card = (props: Card) => {
                 <Price>{props.price}</Price>
                 <aside>
                     <Categories>
-                        {props.categories.map(data => <Categorie>{data.name}</Categorie>)}
+                        {/* {props.categories.map(data => <Categorie>{data.name}</Categorie>)} */}
                     </Categories>
                 </aside>
             </Container>
