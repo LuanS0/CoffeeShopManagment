@@ -1,8 +1,9 @@
+import Cards from "../../components/Cards";
+
 const Products = () => {
     return (
         <>
-            
-            <p>PRODUCTS</p>
+            <Cards />
         </>
     )
 }

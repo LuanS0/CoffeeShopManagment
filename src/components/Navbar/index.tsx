@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
-import { Nav } from "./style";
+import { Nav, NavItem } from "./style";
 
-// DEFAULT NPUT COMPONENT
 const Navbar = () => {
-    // const navigate = useNavigate();
-
     return (
         <>
             <Nav>
-                <li><Link to={'/'}>Home</Link></li>
-                <li><Link to={'/products'}>Products</Link></li>
-                <li><Link to={'/dashboard'}>Dashboard</Link></li>
+                <NavItem><Link to={'/'}>Home</Link></NavItem>
+                <NavItem><Link to={'/products'}> Our Products</Link></NavItem>
+                <NavItem><Link to={'/dashboard'}>Dashboard</Link></NavItem>
+                {/* <NavItem><Link to={'/delivery'}>Delivery</Link></NavItem> */}
             </Nav>
 
         </>
